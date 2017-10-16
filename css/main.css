@@ -1678,7 +1678,7 @@ video#bgvid {
 
 .services p {
     
-    font: "raleway-thin";
+    font: "raleway-regular", "raleway";
 }
 
 .service-list {
