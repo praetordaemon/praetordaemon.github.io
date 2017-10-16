@@ -1676,6 +1676,11 @@ video#bgvid {
 	border-bottom: 1px solid #15191d;
 }
 
+.services p {
+    
+    font: "raleway-thin";
+}
+
 .service-list {
 	margin: 18px -2px 0;
 }
