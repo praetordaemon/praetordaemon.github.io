@@ -987,11 +987,12 @@ video#bgvid {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	min-height: 600px;
+	height: 600px;
 	width: 100%;
 	text-align: left;
 	position: relative;
 	border-bottom: 1px solid #15191d;
+    overflow: hidden
 }
 
 .hero-content {
@@ -1195,6 +1196,7 @@ video#bgvid {
 @media only screen and (max-width:400px) {
 	.hero-content {
 		padding-bottom: 54px;
+        overflow: hidden;
 	}
 
 	#hero-slider {
@@ -1310,13 +1312,13 @@ video#bgvid {
 
 #portfolio {
 	background: #111417;
-	padding-top: 120px;
+	padding-top: 60px;
 	border-bottom: 1px solid #15191d;  
 }
 
 #portfolio .row.items {
 	max-width: 1260px;
-	margin-top: 24px;
+	margin-top: 0px;
 }
 
 /* media queries - portfolio */
@@ -1759,7 +1761,7 @@ video#bgvid {
 /* =================================================================== */
 
 #about {
-	background: #111417;
+	background: white;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
@@ -2635,3 +2637,7 @@ footer .social-links li:first-child {
 	right: -5px;
 }
 
+
+p {
+    font-family: "raleway";
+}
