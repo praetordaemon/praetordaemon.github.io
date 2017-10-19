@@ -1505,7 +1505,7 @@ video#bgvid {
 /* Popup Modal 
 /* ------------------------------------------------------------------ */
 .popup-modal {
-	max-width: 640px;
+	max-width: 540px;
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;  	
