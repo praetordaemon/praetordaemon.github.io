@@ -1,0 +1,17 @@
+.disclaimer{
+width: 480px; 
+color:#ffbf00;
+margin:20px auto;
+padding:0 16px;
+text-align:center;
+font:400 12px Roboto,Helvetica,Arial,sans-serif
+}
+
+
+.disclaimer a{
+color:#ffbf00
+}
+
+#credit{
+display:none
+}
